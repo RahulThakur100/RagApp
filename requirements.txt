@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+openai
+pinecone
+pydantic
+python-dotenv
+
+# For document parsing and file uploads
+pypdf
+python-docx
+python-multipart
