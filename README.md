@@ -1,16 +1,23 @@
-# 🧠 RAG App
+# 🧠💬🎙️ RAG Conversational Chatbot
 
-A simple **Retrieval-Augmented Generation (RAG)** application built with Python.  
-This app lets you upload your own data, index it and query it using an LLM — making responses more accurate and grounded in your knowledge base.
+A **Retrieval-Augmented Generation (RAG)** chatbot with **chat memory** and **voice input/output**.  
+It lets you **talk** with your data: ask questions via voice or text, get context-aware answers, and hear responses spoken back to you.
+
+Powered by:
+
+- [Whisper-1](https://platform.openai.com/docs/guides/speech-to-text) for speech-to-text 🎙️
+- [GPT-4o-mini-tts](https://platform.openai.com/docs/guides/text-to-speech) for speech synthesis 🔊
+- Retrieval-Augmented Generation (RAG) for knowledge grounding 📚
 
 ---
 
 ## 🚀 Features
 
-- Upload and index documents (`upload_data_service.py`)
-- Query pipeline with retrieval + generation (`rag_pipeline.py`)
-- Support for audio input (`audio_service.py`)
-- Simple CLI / script interface
+- 🔍 **Knowledge-grounded answers** from your uploaded documents
+- 💬 **Chat capabilities** — keeps track of conversation context
+- 🎙️ **Voice input** (transcription with Whisper-1)
+- 🔊 **Voice output** (natural speech with GPT-4o-mini-tts)
+- 📂 Easy document ingestion (`upload_data_service.py`)
 
 ---
 
